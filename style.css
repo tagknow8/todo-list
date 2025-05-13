@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+p {
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 400;
+    height: 37px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    font-size: 32px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.center-div {
+    margin: auto;
+    padding: 2%;
+    width: 40%;
+    justify-content: center;
+}
+
+.center-text {
+    width: 75%;
+    justify-content: center;
+}
+
+.todo-entries {
+    display: flex;
+    align-items: center;
+}
+
+.single-entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+}
