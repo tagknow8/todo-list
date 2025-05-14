@@ -2,14 +2,6 @@ body {
     margin: 0;
 }
 
-h1 {
-    padding: 5px;
-}
-
-p {
-    padding: 5px;
-}
-
 .full-page {
     display: flex;
     justify-content: center;
@@ -26,7 +18,7 @@ p {
 .input-box-full-width {
     display: flex;
     justify-content: center;
-    /* background-color: darkolivegreen; */
+    background-color: darkseagreen;
     height: 80px;
     width: 100%;
 }
@@ -41,11 +33,15 @@ p {
 
 .input-box-content {
     margin: 0;
+    padding: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .list-items-full-container {
     display: flex;
-    /* background-color: blue; */
+    background-color: deepskyblue;
     width: 100%;
     justify-content: center;
     height: 50px;
@@ -56,6 +52,14 @@ p {
     /* background-color: blueviolet; */
     width: 75%;
     align-items: center;
+}
+
+.list-item {
+    font-size: 32px;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .list-item-buttons-side-container {
