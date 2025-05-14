@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.full-page {
+    display: flex;
+    justify-content: center;
+}
+
+.outer-width-limits {
+    display: block;
+    justify-content: center;
+    width: 40%;
+    /* background-color: rgb(105, 152, 136); */
+    text-align: center;
+}
+
+.input-box-full-width {
+    display: flex;
+    justify-content: center;
+    background-color: darkseagreen;
+    height: 80px;
+    width: 100%;
+}
+
+.input-box-middle-container {
+    display: flex;
+    width: 75%;
+    height: 80px;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.input-box-content {
+    margin: 0;
+    padding: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-items-full-container {
+    display: flex;
+    background-color: deepskyblue;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+}
+
+.list-items-middle-container {
+    display: flex;
+    /* background-color: blueviolet; */
+    width: 75%;
+    align-items: center;
+}
+
+.list-item {
+    font-size: 32px;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-item-buttons-side-container {
+    display: flex;
+    width: 12.5%;
+    align-items: center;
+    /* background-color: brown; */
+    justify-content: center;
+}
+
+.left-button {
+    background: none;
+    border: none;
+}
+
+.right-button {
+    background: none;
+    border: none;
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
